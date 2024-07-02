@@ -1,4 +1,5 @@
-# How-to-BYPASS-sophisticated-ANTI-BOT-systems
+
+## How-to-BYPASS-sophisticated-ANTI-BOT-systems
 
 https://www.youtube.com/watch?v=uM2bk21_DiI 
 
@@ -7,17 +8,21 @@ https://raw.githubusercontent.com/RodrigoMvs123/How-to-BYPASS-sophisticated-ANTI
 https://github.com/RodrigoMvs123/How-to-BYPASS-sophisticated-ANTI-BOT-systems/blame/main/README.md
 
 Web Unblocker
+```
 A Web Unblocker help us bypass complex anti-scraping measures by appearing like an organic user on a website
-
+```
 IP Address
+```
 An Internet Protocol (IP) address is a unique numerical identifier for every device or network that connects to the internet
-
+```
 What is a Web Unblocker ?
+```
 In the realm of ‘Web Scraping’
 A Web Unblocker help us bypass complex anti-scraping measures by appearing like an organic user on a website
-
+```
 https://github.com/oxylabs/web-unblocker 
 
+```
 Steps to bypass anti-bot systems
 By using the Web Unblocker used for this tutorial
 ML-driven proxy management
@@ -25,18 +30,27 @@ Dynamic browser fingerprinting
 Automatic retries 
 JavaScript rendering
 Worldwide access
+```
 
 Oxylabs UI
-https://oxylabs.io/ 
+
+- https://oxylabs.io/ 
+
 Overview
+```
 Web Unblocker
 Get started
 Start free trial
 Create API user
+```
 
+```
 Scrap Walmart
 Using Python
+```
 
+## Source Code
+```python
 Visual Studio Code
 EXPLORER
 OPEN EDITORS 
@@ -54,14 +68,20 @@ custom_headers = {
 response =  request.get(url, headers=custom_headers)
 
 print(response.text)
+```
 
 Url Address 
+
 https://www.walmart.com/search?q=games 
 
-Visual Studio Code
+### Visual Studio Code
 Terminal
+```bash
 pip3 install requests
+```
 
+## Source Code
+```python
 Visual Studio Code
 EXPLORER
 OPEN EDITORS 
@@ -92,11 +112,16 @@ soup = bs4.BeautifulSoup(response.text, "lxml")
 product_title = soup.find('span', id="product_title")
 
 print(product_title.getText())
+```
 
-Visual Studio Code
+### Visual Studio Code
 Terminal
+```bash
 pip3 install bs4
+```
 
+## Source Code
+```python
 Visual Studio Code
 EXPLORER
 OPEN EDITORS 
@@ -129,15 +154,21 @@ soup = bs4.BeautifulSoup(response.text, "lxml")
 product_title = soup.find('span', id="product_title")
 
 print(product_title.getText())
+```
 
-Visual Studio Code
+### Visual Studio Code
 Terminal
+```bash
 pip3 install lxml
+```
 
-Visual Studio Code
+### Visual Studio Code
 Terminal
 pip3 install bs4
+```
 
+## Source Code
+```
 Visual Studio Code
 EXPLORER
 OPEN EDITORS 
@@ -170,21 +201,30 @@ soup = bs4.BeautifulSoup(response.text, "lxml")
 product_title = soup.find('span', attrs={"data-automation-id":"product_title"})
 
 print(product_title.getText())
+```
 
 Run Script
-
+```
 Scrape Google
 Using JavaScript
+```
 
+## Source Code
+```
 Visual Studio Code
 EXPLORER
 OPEN EDITORS 
 web-unblocker
+```
 
-Visual Studio Code
+### Visual Studio Code
 Terminal
+```
 npm init
+```
 
+## Source Code
+```
 Visual Studio Code
 EXPLORER
 OPEN EDITORS 
@@ -203,7 +243,9 @@ package.json
   "author": "",
   "license": "ISC"
 }
+```
 
+```
 Visual Studio Code
 EXPLORER
 OPEN EDITORS 
@@ -223,7 +265,9 @@ package.json
   "author": "",
   "license": "ISC"
 }
+```
 
+```
 Visual Studio Code
 EXPLORER
 OPEN EDITORS 
@@ -234,11 +278,16 @@ index.js
 index.js
 import fetch from 'node-fetch'
 import { HttpsProxyAgent } from 'http-proxy-agent'
+```
 
-Visual Studio Code
+### Visual Studio Code
 Terminal
+```
 npm i node-fetch https-proxy-agent
+```
 
+## Source Code
+```
 Visual Studio Code
 EXPLORER
 OPEN EDITORS 
@@ -265,10 +314,14 @@ const response = await fetch('https://www.walmart.com/search?q=games', {
 })
 
 console.log(await response.text())
+```
 
 Run Script
+
+## Source Code
+```
 Visual Studio Code
 Terminal
 node index.js 
-
+```
 
